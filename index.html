@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>CODETHULU</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link href="build/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:100,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+
+
+  <!-- ... -->
+</head>
+<body>
+
+
+
+<!--
+  This site was made using Tailwind CSS
+-->
+
+<div class="bg-black">
+    
+    <header class="sticky top-0 z-50">
+        <nav class="bg-black backdrop-filter backdrop-blur-md bg-opacity-20">
+            <div class="max-w-screen-lg mx-auto">
+              <div class="flex items-center justify-center h-12 font-oswald text-sm p-5">
+
+                <span class="text-3xl text-white font-semibold font-odibee tracking-wide">CODETHULU</span>
+                <span class="w-3/4"></span>
+                <div class="flex space-x-10  text-white">
+                  <a class="hover:underline" href="#">HOME</a>
+                  <a class="hover:underline" href="#about">ABOUT</a>
+                  <a class="hover:underline" href="#projects">PROJECTS</a>
+                  <a class="hover:underline" href="#">BLOG</a>
+                  <a class="hover:underline" href="#">CONTACT</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="relative text-white">
+
+      <div class="relative bg-black py-16 sm:py-24 lg:py-32">
+        <div class="relative">
+          <div class="text-9xl text-white font-semibold font-oswald">
+            <p class="md:mx-14 sm:mx-5">BRENDAN<br class="m-10">BELL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative bg-Tgray-800 py-10 sm:py-8 lg:py-12">
+        <div class="relative">
+          <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+ 
+            <p class="mt-2 text-xl text-white font-oswald tracking-tight">
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Coventry/Harrogate
+              <br>
+              <i class="fa fa-university" aria-hidden="true"></i> Computer Science Undergrad at The Univesity of Warwick
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a id="about"></a>
+      <div class="relative bg-Tgray-600 py-16 sm:py-24 lg:py-32">
+        <div class="relative">
+          <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+            
+            <p class="mt-2 text-7xl text-white font-odibee tracking-tight">
+              ABOUT ME
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <a id="projects"></a>
+      <div class="relative bg-Tgray-800 py-16 sm:py-24 lg:py-32">
+        <div class="relative">
+          <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+            
+            <p class="mt-2 text-7xl text-white font-odibee tracking-tight">
+              PROJECTS
+            </p>
+          </div>
+
+          <div class="mt-12 mx-auto max-w-7xl px-4 grid gap-5 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
+
+           
+            <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/cs118.png);">
+              <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                  Robot Maze<br>[<span class="text-yellow-600">Java</span>]
+                </h1>
+                <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                  Coursework written for CS118, where pathfinding algorithms such as A* and djikstra were researched and utilised to guide the robot to the goal.
+                </p>
+              </div>
+            </article>
+
+            <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/cs141.png);">
+              <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                  Scratch Clone<br>[<span class="text-purple-600">Haskell</span>]
+                </h1>
+                <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                  Coursework written for CS141. An interpreter for a program based on google blockly was written in haskell in order to create a scratch clone. 
+                </p>
+              </div>
+            </article>
+
+            <a href="assets/src/essay.pdf">
+              <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/essay.png);">
+                <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                  <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                      How Should Society Adapt To The Autonomy Of Labour?
+                  </h1>
+                  <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                      An essay contemplating the future of automation in the workplace and possible reactions society might take, written for CS133 in my first year.
+                  </p>
+                </div>
+              </article>
+            </a>
+
+            <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/ncurses.png);">
+              <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                  Ncurses Text Editor<br>[<span class="text-green-200">C</span>]
+                </h1>
+                <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                  Coursework written for CS132. A text editor written in C with a TUI implemented using ncurses. Also considers basic file operations and memory management.
+                </p>
+              </div>
+            </article>
+
+            <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/chamber.png);">
+              <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                  The Chamber: A Dungeon Crawler<br>[<span class="text-yellow-200">Python</span>]
+                </h1>
+                <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                  A project written using pygame and numpy. Application of pathfinding algorithms, vector maths and procedurally generation. 
+                </p>
+              </div>
+            </article>
+
+            <a href="https://cs139.dcs.warwick.ac.uk/~u2001526/cs139/cw/login.php">
+              <article class="mx-auto w-full shadow-xl bg-cover bg-center min-h-96 transform duration-500 hover:-translate-y-4 cursor-pointer group" style="background-image: url(./assets/img/sytes.png);">
+                <div class="bg-gradient-to-t from-black to-transparent bg-opacity-40 min-h-96 px-10 flex flex-wrap flex-col pt-96 hover:bg-black hover:bg-opacity-60 backdrop-filter backdrop-blur-none hover:backdrop-blur-md transform duration-300">
+                  <h1 class="text-white text-3xl mb-5 transform translate-y-20 group-hover:-translate-y-10 duration-300 font-odibee">
+                    SYTES: An online chore manager<br>[<span class="text-yellow-800">HTML</span> / <span class="text-green-400">CSS</span> / <span class="text-blue-200">PHP</span> / <span class="text-yellow-400">js</span>  / <span class="text-green-700">SQL</span>]
+                  </h1>
+                  <p class="opacity-0 text-white -translate-y-10 text-md group-hover:opacity-80 transform duration-500">
+                    Coursework written for CS139. An online task manager that utilises a database to pair users to houses that each contain a list of tasks that must be completed.
+                  </p>
+                </div>
+              </article>
+            </a>
+
+      
+
+              
+
+
+          </div>
+        </div>
+      </div>
+
+    
+
+
+     
+    </main>
+    <footer class="bg-black" aria-labelledby="footerHeading">
+        <a id="Links"></a>
+        <h2 id="footerHeading" class="sr-only">Footer</h2>
+        <div class="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div class="space-y-8 xl:col-span-1">
+    
+                <div class="flex space-x-6">
+    
+                <a href="https://github.com/thulhu" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Github</span>
+                    
+                    <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                    
+                    </svg>
+                </a>
+    
+
+            
+    
+                </div>
+            </div>
+            </div>
+            <div class="mt-12 border-t border-gray-200 py-8">
+            <p class="text-base text-gray-400 xl:text-center">
+                &copy; 2021 Brendan Bell
+            </p>
+            </div>
+        </div>
+        </footer>
+   
+  
+</div>
+
+</body>
+</html>
