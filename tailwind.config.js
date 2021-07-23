@@ -6,7 +6,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'oswald': ['oswald', 'sans-serif'],
-        'odibee': ['"odibee sans"', 'sans-serif']
+        'odibee': ['"odibee sans"', 'sans-serif'],
+        'bebas': ['"bebas neue"', 'sans-serif'],
+        'staatliches': ['staatliches', 'sans-serif'],
+        'philosopher': ['philosopher', 'sans-serif'],
+        'sansita': ['sansita', 'sans-serif']
       },
       colors:{
         'Tgray': colors.trueGray,
