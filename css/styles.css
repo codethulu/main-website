@@ -1,5 +1,35 @@
-@tailwind base;
+.framed {
+    clip-path: polygon(0 40px, 0 0, 40px 0, 40px 11px, calc(100% - 40px) 11px, calc(100% - 40px) 0, 100% 0, 100% 40px, calc(100% - 11px - 1px) 40px, calc(100% - 11px - 1px) calc(100% - 40px), 100% calc(100% - 40px), 100% 100%, calc(100% - 40px) 100%, calc(100% - 40px) calc(100% - 11px - 1px), 40px calc(100% - 11px - 1px), 40px 100%, 0 100%, 0 calc(100% - 40px), 11px calc(100% - 40px), 11px 40px);
+    transition: clip-path 0.5s ease;
+    transition-duration: 0.5s ease;
+}
 
-@tailwind components;
 
-@tailwind utilities;
+
+.hover-active:hover {
+    transition: clip-path 0.5s ease;
+    transition-duration: 0.5s ease;
+    clip-path: polygon(0 40px, 0 0, 40px 0, 40px 11px, calc(0% - 40px) 11px, calc(0% - 40px) 0, 100% 0, 100% 40px, calc(100% - 11px - 1px) 40px, calc(100% - 11px - 1px) calc(0% - 40px), 100% calc(0% - 40px), 100% 100%, calc(0% - 40px) 100%, calc(0% - 40px) calc(100% - 11px - 1px), 40px calc(100% - 11px - 1px), 40px 100%, 0 100%, 0 calc(0% - 40px), 11px calc(0% - 40px), 11px 40px);
+    /* clip-path: none; */
+    
+
+}
+
+.frameColour-white{
+    border: 10px solid white;
+}
+
+.frameColour-lgray{
+    border: 10px solid #777777;
+}
+
+.frameColour-lgray-5{
+    border: 5px solid #777777;
+}
+
+.frameColour-black{
+    border: 10px solid black;
+}
+  
+  
+  
