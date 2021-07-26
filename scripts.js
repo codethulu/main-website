@@ -10,7 +10,10 @@ function scrollFunction() {
     // document.getElementById("header").style.fontSize = "20px";   
     
     document.getElementById("contactButtonA").style.opacity = "0%"; 
+    document.getElementById("contactButtonA").style.pointerEvents = "none";
+    
     document.getElementById("contactButtonB").style.opacity = "90%"; 
+    document.getElementById("contactButtonB").style.pointerEvents = "auto";
 
 
   } else {
@@ -19,6 +22,8 @@ function scrollFunction() {
     // document.getElementById("header").style.fontSize = "40px";      
 
     document.getElementById("contactButtonB").style.opacity = "0%"; 
+    document.getElementById("contactButtonA").style.pointerEvents = "auto";
+    document.getElementById("contactButtonB").style.pointerEvents = "none";
     document.getElementById("contactButtonA").style.opacity = "100%"; 
  
   }
